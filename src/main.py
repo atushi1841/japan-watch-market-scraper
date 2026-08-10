@@ -27,7 +27,9 @@ async def run(actor_input, actor=None):
         "Accept-Language": "ja-JP,ja;q=0.9",
     }
 
-    async with httpx.AsyncClient(proxy=proxy_url, headers=headers, timeout=30.0, follow_redirects=True) as client:
+    # キタムラAPIはApifyプロキシ(海外DC IP)を403ブロックするため、プロキシなしのクライアントが必要
+    async with httpx.AsyncClient(proxy=proxy_url, headers=headers, timeout=30.0, follow_redirects=True) as client, \
+               httpx.AsyncClient(proxy=None, headers=headers, timeout=30.0, follow_redirects=True) as client_direct:
         collected = 0
         for src in sources:
             if collected >= max_items:
@@ -42,7 +44,7 @@ async def run(actor_input, actor=None):
             elif src == "kitamura":
                 from sources.kitamura import fetch_kitamura
                 # キタムラは時計カテゴリに絞る（キーワードがあればキーワード検索）
-                items = await fetch_kitamura(client, keyword=search_keyword, max_pages=max_pages,
+                items = await fetch_kitamura(client_direct, keyword=search_keyword, max_pages=max_pages,
                                              max_items=remaining, category_filter="中古時計")
 
             for item in items:
