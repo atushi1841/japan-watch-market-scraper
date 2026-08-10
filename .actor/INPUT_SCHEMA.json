@@ -1,0 +1,45 @@
+{
+  "title": "Japan Watch Market Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "searchKeyword": {
+      "title": "検索キーワード（ブランド名など）",
+      "type": "string",
+      "description": "ROLEX、OMEGA、SEIKOなど。空欄だとキタムラは時計全体、ジャックロードはスキップ",
+      "prefill": "ROLEX",
+      "editor": "textfield"
+    },
+    "maxItems": {
+      "title": "最大取得件数",
+      "type": "integer",
+      "description": "取得する最大商品数",
+      "default": 100,
+      "minimum": 1
+    },
+    "maxPages": {
+      "title": "最大ページ数",
+      "type": "integer",
+      "description": "各ソースで取得する最大ページ数",
+      "default": 2,
+      "minimum": 1
+    },
+    "sources": {
+      "title": "取得ソース",
+      "type": "string",
+      "description": "カンマ区切り（jackroad,kitamura）",
+      "default": "jackroad,kitamura",
+      "editor": "textfield"
+    },
+    "proxyConfiguration": {
+      "title": "Proxy設定",
+      "type": "object",
+      "editor": "proxy",
+      "description": "Apifyプロキシ設定（自動）",
+      "default": {
+        "useApifyProxy": true
+      }
+    }
+  },
+  "required": []
+}

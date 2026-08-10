@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-watch-market-scraper",
+  "title": "Japan Watch Market — Cross-Shop Price Comparison",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./INPUT_SCHEMA.json"
+}
