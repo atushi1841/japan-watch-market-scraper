@@ -37,6 +37,27 @@ Scrapes listings from **Jackroad (ジャックロード)** — Tokyo's leading p
 | `productUrl` | Product page URL |
 | `scrapedAt` | Scrape timestamp |
 
+## Output sample
+
+```json
+{
+  "productId": "6341419",
+  "title": "ロレックス エアキング",
+  "price": 848000,
+  "brand": "ロレックス",
+  "condition": "ヴィンテージ",
+  "stockStatus": "在庫あり",
+  "productUrl": "https://www.jackroad.co.jp/shop/g/g6341419/",
+  "imageUrl": "https://www.jackroad.co.jp/img/goods/S/6341419.jpg",
+  "shop": "Jackroad",
+  "source": "jackroad",
+  "category": "中古時計",
+  "scrapedAt": "2026-08-10T09:54:53.747321+00:00"
+}
+```
+
+The `source` + `shop` fields let you compare the same watch model across shops: run once with `searchKeyword: "ROLEX"` and get Jackroad and Kitamura prices side by side.
+
 ## Pricing
 
 Pay per event — $0.00005/run + **$0.002/item**.
