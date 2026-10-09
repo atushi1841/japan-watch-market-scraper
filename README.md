@@ -1,5 +1,7 @@
 # Japan Watch Market — Cross-Shop Price Comparison
 
+[![Apify Store](https://img.shields.io/badge/Apify-Store-blue)](https://apify.com/fruitful_quintessence/japan-watch-market-scraper)
+
 **Compare used luxury watch prices across Japan's top watch retailers in a single dataset.**
 
 Scrapes listings from **Jackroad (ジャックロード)** — Tokyo's leading pre-owned luxury watch dealer — and **Kitamura (キタムラ)** — Japan's largest camera chain with a 395+ used watch inventory (Rolex, Citizen, Seiko, Grand Seiko, etc.). Each item is tagged with its `source` and `shop` so you can compare prices for the same model across shops.
