@@ -1,6 +1,6 @@
 {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name": "io.github.atushi1841/atushi1841/japan-watch-market-mcp",
+    "name": "io.github.atushi1841/japan-watch-market-mcp",
     "description": "Japan luxury watch prices Jackroad/Kitamura cross-shop",
     "repository": {
         "url": "https://github.com/atushi1841/japan-watch-market-scraper",
@@ -12,7 +12,7 @@
             "registryType": "mcpb",
             "identifier": "https://github.com/atushi1841/japan-watch-market-scraper/releases/download/v1.0.0/server.mcpb",
             "version": "1.0.0",
-            "fileSha256": "e0bfb925a8a253e6a48748d7d67bd544d0b21276218b78bc093d871aaa9b3a6f",
+            "fileSha256": "PENDING",
             "transport": {
                 "type": "stdio"
             }
