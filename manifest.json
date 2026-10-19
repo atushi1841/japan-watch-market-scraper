@@ -1,0 +1,16 @@
+{
+  "manifest_version": "0.4",
+  "name": "japan-watch-market-mcp",
+  "display_name": "Japan Watch Market MCP",
+  "version": "1.0.0",
+  "description": "Cross-shop luxury watch prices from Jackroad & Kitamura. Live data via Apify actor (fruitful_quintessence/japan-watch-market-scraper). Gumroad: https://atushi5.gumroad.com/l/kutuxe",
+  "author": {
+    "name": "Kensho Project",
+    "email": "atushi1841@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atushi1841/japan-watch-market-scraper"
+  },
+  "homepage": "https://github.com/atushi1841/japan-watch-market-scraper"
+}
