@@ -87,3 +87,13 @@ Install via MCP: add to your MCP config:
 ```json
 {"mcpServers": {"japan-watch-market-mcp": {"command": "python3", "args": ["src/stdio_main.py"]}}}
 ```
+
+## Smithery
+
+[![Smithery](https://smithery.ai/server/japan-watch-market-mcp/badge)](https://smithery.ai/server/japan-watch-market-mcp)
+
+Install via Smithery:
+
+```bash
+npx @smithery/cli install japan-watch-market-mcp --client claude
+```
