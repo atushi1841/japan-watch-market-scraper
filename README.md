@@ -74,3 +74,16 @@ Works with Apify [Connectors](https://apify.com/integrations) — push results t
 - **Kitamura**: internal used-goods search API, filtered to used watch category (中古時計).
 
 Both sources are public web data; only factual product information (name, price, brand, condition) is collected.
+
+## MCP Server & Registry
+
+This scraper is also available as an MCP server for AI agents:
+
+- **MCP Registry**: `io.github.atushi1841/japan-watch-market-mcp`
+- **Apify Store**: https://apify.com/fruitful_quintessence/japan-watch-market-scraper
+- **Gumroad**: https://atushi5.gumroad.com/l/kutuxe
+
+Install via MCP: add to your MCP config:
+```json
+{"mcpServers": {"japan-watch-market-mcp": {"command": "python3", "args": ["src/stdio_main.py"]}}}
+```
