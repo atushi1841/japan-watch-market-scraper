@@ -12,7 +12,7 @@
             "registryType": "mcpb",
             "identifier": "https://github.com/atushi1841/japan-watch-market-scraper/releases/download/v1.0.0/server.mcpb",
             "version": "1.0.0",
-            "fileSha256": "PENDING",
+            "fileSha256": "674baa21ffcd0f59d04017ef5854da9eb9576c5835196847d5d01a3e05292bc1",
             "transport": {
                 "type": "stdio"
             }
