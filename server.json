@@ -1,21 +1,21 @@
 {
-    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name": "io.github.atushi1841/japan-watch-market-mcp",
-    "description": "Japan luxury watch prices Jackroad/Kitamura cross-shop",
-    "repository": {
-        "url": "https://github.com/atushi1841/japan-watch-market-scraper",
-        "source": "github"
-    },
-    "version": "1.0.0",
-    "packages": [
-        {
-            "registryType": "mcpb",
-            "identifier": "https://github.com/atushi1841/japan-watch-market-scraper/releases/download/v1.0.0/server.mcpb",
-            "version": "1.0.0",
-            "fileSha256": "d168811e5e81cdec5d8c38277600f2f01d02d4302cd591c57501d5b3514680bc",
-            "transport": {
-                "type": "stdio"
-            }
-        }
-    ]
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.atushi1841/japan-watch-market-mcp",
+  "description": "Japan luxury watch prices Jackroad/Kitamura cross-shop | Data: https://apify.com/fruitful_quintessence | 全 Gist 相互参照索引: https://gist.github.com/atushi1841/413d5887e2c797d3628c8350cded7c97",
+  "repository": {
+    "url": "https://github.com/atushi1841/japan-watch-market-scraper",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/atushi1841/japan-watch-market-scraper/releases/download/v1.0.0/server.mcpb",
+      "version": "1.0.0",
+      "fileSha256": "d168811e5e81cdec5d8c38277600f2f01d02d4302cd591c57501d5b3514680bc",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
 }
